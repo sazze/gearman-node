@@ -1,15 +1,19 @@
 {
-    "name": "gearman",
-    "version": "0.3.0",
+    "name": "gearman2",
+    "version": "0.3.2",
     "description": "Client library for Gearman",
     "keywords": ["gearman", "job", "worker", "background"],
-    "homepage": "https://github.com/cramerdev/gearman-node",
-    "author": "Nathan L Smith <gearman@gearmanhq.com>",
+    "homepage": "https://github.com/sazze/gearman-node",
+    "author": "Kevin Smithson <ksmithson@sazze.com>",
     "main": "lib/gearman",
     "repository": {
         "type": "git",
-        "url": "https://github.com/cramerdev/gearman-node.git"
+        "url": "https://github.com/sazze/gearman-node.git"
     },
-    "dependencies": { "binary": ">=0.0.0" },
+    "contributors": [
+      "Kevin Smithson <ksmithson@sazze.com>",
+      "Nathan L Smith <gearman@gearmanhq.com>"
+    ],
+    "dependencies": { "binary": "0.2.6" },
     "devDependencies": { "nodeunit": "~0.4" }
 }
